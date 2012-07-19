@@ -8,7 +8,7 @@ setup(name='pamixer',
       author='Valodim',
       author_email='valodim@mugenguild.com',
       url='http://github.com/valodim/pamixer',
-      packages=['pamixer', 'pamixer.classes', 'pamixer.screens'],
+      packages=['pamixer', 'pamixer.classes', 'pamixer.pulse', 'pamixer.screens'],
       scripts=['bin/pamixer'],
       requires=['libpulseaudio(>=1.1)','argparse'],
       install_requires=['libpulseaudio >=1.1','argparse']
